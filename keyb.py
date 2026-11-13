@@ -2,9 +2,9 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 keyb = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text="🇷🇺 RU"),
-            KeyboardButton(text="🇺🇸 EN"),
+            KeyboardButton(text="📥 Гайд по установке"),
+            KeyboardButton(text="📖 Мануалы"),
+            KeyboardButton(text="📽️ ВидеоГайды"),
         ],   
     ],
-    resize_keyboard=True,
-    one_time_keyboard=True)
+    resize_keyboard=True)
