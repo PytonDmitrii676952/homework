@@ -1,4 +1,5 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from translations import texts
 keyb = ReplyKeyboardMarkup( 
     keyboard=[
@@ -17,3 +18,19 @@ def create_menu(language):
         resize_keyboard=True
     )
     return keyb_menu
+question = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(
+                text="Xoчу добавится в канал",
+                callback_data="add_channel"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="Не хочу добавляться в канал",
+                callback_data="no_channel"
+            )
+        ]
+    ],
+)
