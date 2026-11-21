@@ -3,7 +3,9 @@ texts = {
         "menu": {
             "install_guide": "📥 Гайд по установке",
             "manuals": "📖 Мануалы",
-            "videos": "📽️ ВидеоГайды"
+            "videos": "📽️ ВидеоГайды",
+            "no_channel": "Не хочу добавляться в канал!",
+            "add_channel": "Хочу добавится в канал!"
         },
         "welcome": "Привет,Я ваш бот,который может помочь тебе в изучении git и github.\n Выберите язык,на котором вы хотите общаться",
 
@@ -16,14 +18,19 @@ texts = {
     " Подробная инструция для настройки а так же использования Git.",
 
         "videos": "Вот полезное видео, которе поможет вникнуть в Git и GitHub" \
-    " https://www.youtube.com/watch?v=eMETcugEX_c" \
-    " Это Видео очень подробно объясняет главное, что нужно знать о Git и GitHub."
+    " https://www.youtube.com/watch?v=eMETscugEX_c" \
+    " Это Видео очень подробно объясняет главное, что нужно знать о Git и GitHub.",
+        "question": "Хотите присоединится к нашему каналу?",
+        "add_channel": "Отлично! Добро пожаловать в наш канал!",
+        "no_channel": "Хорошо! Вы всегда можете присоеденится позже."
     },
     "en": {
         "menu": {
             "install_guide": "📥 Install Guide",
             "manuals": "📖 Manuals",
-            "videos": "📽️ Videos"
+            "videos": "📽️ Videos",
+            "no_channel": "I don't want to join the channel!",
+            "add_channel": "I want to join the channel!"
         },
         "welcome": "Hello, I am your bot that can help you learn git and github.\n Please choose the language you want to communicate in",
 
@@ -38,5 +45,8 @@ texts = {
         "videos": "Here's a helpful video, that will help you get to grips with Git and GitHub" \
     " https://www.youtube.com/watch?v=8JJ101D3knE" \
     " This video explains, in great detail, the most important things you need to know about Git and GitHub.",\
+        "question": "Do you want to join our channel?",
+        "add_channel": "Great! Welcome to our channel!",
+        "no_channel": "Okay! You can always join later."
     }
 }

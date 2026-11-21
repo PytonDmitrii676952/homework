@@ -3,8 +3,8 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from translations import texts
 keyb = ReplyKeyboardMarkup( 
     keyboard=[
-        [KeyboardButton(text="RU")],
-        [KeyboardButton(text="EN")]
+        [KeyboardButton(text="🇷🇺RU")],
+        [KeyboardButton(text="🇺🇸EN")]
     ],
     resize_keyboard=True
 )
@@ -18,19 +18,21 @@ def create_menu(language):
         resize_keyboard=True
     )
     return keyb_menu
-question = InlineKeyboardMarkup(
-    inline_keyboard=[
+def create_question(language):
+    question = InlineKeyboardMarkup(
+        inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="Xoчу добавится в канал",
+                text=texts[language]["menu"]["add_channel"],
                 callback_data="add_channel"
             )
         ],
         [
             InlineKeyboardButton(
-                text="Не хочу добавляться в канал",
-                callback_data="no_channel"
+                text=texts[language]["menu"]["no_channel"],
+                callback_data="no_channel"  
             )
         ]
     ],
 )
+    return question
